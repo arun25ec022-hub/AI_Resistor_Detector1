@@ -1,0 +1,16 @@
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.streamlit/secrets.toml
+dataset/
+models/
+yolo11n.pt
+runs/**
+!runs/detect/
+runs/detect/**
+!runs/detect/resistor_detector_fast/
+runs/detect/resistor_detector_fast/**
+!runs/detect/resistor_detector_fast/weights/
+runs/detect/resistor_detector_fast/weights/**
+!runs/detect/resistor_detector_fast/weights/best.pt
